@@ -5,6 +5,7 @@ import favLg from "../assets/favicon-32x32.png";
 import apple from "../assets/apple-touch-icon.png";
 import android from "../assets/android-chrome-192x192.png";
 import androidLg from "../assets/android-chrome-512x512.png";
+import image from "../assets/image.jpg";
 
 function Main() {
   return (
@@ -15,10 +16,7 @@ function Main() {
         <meta name="keywords" content="박효준" />
         <meta property="og:title" content="서호주 로드트립" />
         {/* 카드에 표시하고 싶은 제목 */}
-        <meta
-          property="og:image"
-          content="https://i.ytimg.com/vi/ax3g7UiFyk8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBw65Y9akK26AVzDxvEDAwJWC8sTA"
-        />
+        <meta property="og:image" content={image} />
         {/* 카드에 표시하고 싶은 이미지 */}
         <meta
           property="og:url"
@@ -37,10 +35,7 @@ function Main() {
           property="twitter:description"
           content="서호주 에스페란스로 떠나는 여행"
         />
-        <meta
-          property="twitter:image"
-          content="https://i.ytimg.com/vi/ax3g7UiFyk8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBw65Y9akK26AVzDxvEDAwJWC8sTA"
-        />
+        <meta property="twitter:image" content={image} />
         <link rel="apple-touch-icon" sizes="180x180" href={apple} />
         <link rel="icon" type="image/png" sizes="192x192" href={android} />
         <link rel="icon" type="image/png" sizes="512x512" href={androidLg} />
