@@ -41,7 +41,6 @@ function Main() {
           property="twitter:image"
           content="https://i.ytimg.com/vi/ax3g7UiFyk8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBw65Y9akK26AVzDxvEDAwJWC8sTA"
         />
-
         <link rel="apple-touch-icon" sizes="180x180" href={apple} />
         <link rel="icon" type="image/png" sizes="192x192" href={android} />
         <link rel="icon" type="image/png" sizes="512x512" href={androidLg} />
